@@ -12,7 +12,7 @@ ifeq ($(filter-out OFFICIAL WEEKLIES RC,$(DU_BUILD_TYPE)),)
 endif
 
 # Sign builds if building an official or weekly build
-    PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/security
+    PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/security/releasekey
 
 # Set all versions
 BUILD_DATE := $(shell date -u +%Y%m%d)
