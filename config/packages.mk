@@ -3,7 +3,9 @@ PRODUCT_PACKAGES += \
     DU-Themes \
     LatinIMEGooglePrebuilt \
     SoundPickerPrebuilt \
-    WallpaperPicker2
+    WallpaperPicker2 \
+    Longshot
+
 
 # Include librsjni explicitly to workaround GMS issue
 PRODUCT_PACKAGES += \
